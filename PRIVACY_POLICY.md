@@ -87,7 +87,15 @@ Locked In Technologies LLC (the Company) may access user data for:
 - Platform maintenance and security
 - Legal compliance
 
-### 3.4 What We Do NOT Do
+### 3.4 Legal Disclosures
+
+We may disclose your information if required by:
+- Law, regulation, or legal process
+- Governmental or regulatory request
+- Court order or subpoena
+- Protection of our rights, property, or safety
+
+### 3.5 What We Do NOT Do
 
 We do not:
 - Sell personal information to third parties
@@ -127,6 +135,8 @@ We implement security measures including:
 - Delete individual entries (workouts, meals, messages) within the App
 - Request full account deletion by contacting us at lockedinwebdesigns@gmail.com
 
+**Important:** Deleting your App account does not delete your gym membership or data your gym may have collected separately. Contact your gym directly for membership-related data requests.
+
 ### 6.3 Control Sharing
 - Choose what content to post
 - Manage photo and camera permissions in your device settings
@@ -153,7 +163,15 @@ You may deny or revoke this permission in your device settings. The App will fun
 
 ---
 
-## 9. California Privacy Rights (CCPA)
+## 9. Cookies & Tracking
+
+The App may use standard mobile analytics tools to improve performance and user experience.
+
+**We do not use tracking for advertising purposes.** We do not sell your data to advertisers or use third-party advertising networks.
+
+---
+
+## 10. California Privacy Rights (CCPA)
 
 California residents have the right to:
 - Know what personal information is collected
@@ -165,7 +183,7 @@ To exercise these rights, contact us at lockedinwebdesigns@gmail.com.
 
 ---
 
-## 10. International Users & GDPR
+## 11. International Users & GDPR
 
 If you are located outside the United States, your data will be transferred to and stored on servers in the United States.
 
@@ -187,7 +205,7 @@ Contact us at lockedinwebdesigns@gmail.com to exercise these rights.
 
 ---
 
-## 11. Changes to This Policy
+## 12. Changes to This Policy
 
 We may update this Privacy Policy from time to time. Changes will be communicated through:
 - Updated "Last Updated" date in the App
@@ -198,7 +216,7 @@ Continued use after changes constitutes acceptance of the updated policy.
 
 ---
 
-## 12. Contact Information
+## 13. Contact Information
 
 For privacy questions, data requests, or account deletion:
 
