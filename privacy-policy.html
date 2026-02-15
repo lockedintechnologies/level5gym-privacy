@@ -33,338 +33,274 @@
             color: #333;
             margin-top: 20px;
         }
+        .last-updated {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
         ul {
-            margin: 10px 0;
-            padding-left: 25px;
+            margin-left: 20px;
         }
         li {
-            margin: 5px 0;
-        }
-        a {
-            color: #007AFF;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        hr {
-            border: none;
-            border-top: 1px solid #ddd;
-            margin: 30px 0;
+            margin-bottom: 8px;
         }
         strong {
             color: #1a1a1a;
         }
-        p {
-            margin: 10px 0;
+        .contact-box {
+            background: #f9f9f9;
+            padding: 15px;
+            border-left: 4px solid #007AFF;
+            margin: 20px 0;
+        }
+        .highlight {
+            background: #fff3cd;
+            padding: 15px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Privacy Policy – Level5 Gym App</h1>
-
-<strong>Effective Date:</strong> February 11, 2026  
-<strong>Last Updated:</strong> February 11, 2026
-
-<hr>
-
-<h2>Introduction</h2>
-
-<p>This Privacy Policy describes how Locked In Technologies LLC ("Company," "we," "us," or "our") collects, uses, and protects information when you use the Level5 Gym mobile application (the "App").</p>
-
-<strong>Important:</strong>  
-This App is a software platform provided to gym members. Your gym has its own privacy practices regarding in-person services, facility operations, and membership management. This Privacy Policy applies only to the App.
-
-<hr>
-
-<h2>1. Information We Collect</h2>
-
-<h3>1.1 Account Information</h3>
-<ul>
-<li>Name, email address, phone number</li>
-<li>Username and password (securely stored via Firebase Authentication)</li>
-<li>Profile photo and bio (optional)</li>
-</ul>
-
-<h3>1.2 Fitness & Health Data</h3>
-<ul>
-<li>Workout logs and completions</li>
-<li>Exercise tracking and personal records</li>
-<li>Body measurements and weigh-ins</li>
-<li>Fitness goals and progress tracking</li>
-<li>Meal logs and nutrition tracking</li>
-</ul>
-
-<h3>1.3 User-Generated Content</h3>
-<ul>
-<li>Photos and images you upload</li>
-<li>Messages sent within the App</li>
-<li>Posts, announcements, and comments</li>
-<li>Reactions to community content</li>
-</ul>
-
-<h3>1.4 Usage & Device Information</h3>
-<ul>
-<li>App features used and activity logs</li>
-<li>Device type, operating system, and app version</li>
-<li>Login timestamps and session data</li>
-</ul>
-
-<hr>
-
-<h2>2. How We Use Your Information</h2>
-
-<p>We use collected information to:
-<ul>
-<li><strong>Operate the App:</strong> Provide workout tracking, meal logging, and communication features</li>
-<li><strong>Enable Community Features:</strong> Display user activity within gym communities</li>
-<li><strong>Facilitate Communication:</strong> Enable messaging between members and trainers</li>
-<li><strong>Improve the Platform:</strong> Analyze usage patterns to enhance features and performance</li>
-<li><strong>Provide Support:</strong> Respond to technical issues and support requests</li>
-<li><strong>Maintain Security:</strong> Protect against unauthorized access and ensure data integrity</li>
-</ul></p>
-
-<hr>
-
-<h2>3. Data Sharing</h2>
-
-<h3>3.1 Within Your Gym</h3>
-
-<p>The App is designed for gym communities. Data visibility depends on your role and gym configuration:</p>
-
-<strong>Typically visible to other gym members:</strong>
-<ul>
-<li>Profile information (name, username, photo)</li>
-<li>Workout completions (for leaderboards)</li>
-<li>Community posts and announcements</li>
-</ul>
-
-<strong>Typically visible to trainers and gym owners:</strong>
-<ul>
-<li>All of the above, plus:</li>
-<li>Weigh-ins, body measurements, and fitness goals</li>
-<li>Meal logs and nutrition data</li>
-<li>Support requests</li>
-</ul>
-
-<p>Gyms control data access within their community. Contact your gym regarding specific data visibility policies.</p>
-
-<h3>3.2 Third-Party Services</h3>
-
-<p>We use the following services to operate the App:
-<ul>
-<li><strong>Google Firebase/Firestore:</strong> Data storage, authentication, and cloud infrastructure</li>
-<li><strong>Apple Services:</strong> App distribution via the App Store</li>
-</ul></p>
-
-<p>These providers have their own privacy policies and security practices.</p>
-
-<h3>3.3 Platform Support</h3>
-
-<p>Locked In Technologies LLC (the Company) may access user data for:
-<ul>
-<li>Technical troubleshooting and support</li>
-<li>Platform maintenance and security</li>
-<li>Legal compliance</li>
-</ul></p>
-
-<h3>3.4 Legal Disclosures</h3>
-
-<p>We may disclose your information if required by:
-<ul>
-<li>Law, regulation, or legal process</li>
-<li>Governmental or regulatory request</li>
-<li>Court order or subpoena</li>
-<li>Protection of our rights, property, or safety</li>
-</ul></p>
-
-<h3>3.5 What We Do NOT Do</h3>
-
-<p>We do not:
-<ul>
-<li>Sell personal information to third parties</li>
-<li>Use your data for advertising or marketing outside the App</li>
-<li>Collect payment or financial information (gyms handle payments separately)</li>
-<li>Share data with unrelated third parties</li>
-</ul></p>
-
-<hr>
-
-<h2>4. Data Security</h2>
-
-<p>We implement security measures including:
-<ul>
-<li><strong>Encryption:</strong> Data is encrypted in transit (TLS/SSL) and at rest</li>
-<li><strong>Firebase Security:</strong> Cloud Firestore security rules enforce role-based access</li>
-<li><strong>Secure Authentication:</strong> Firebase Authentication with industry-standard encryption</li>
-<li><strong>Access Controls:</strong> Strict permission-based access</li>
-</ul></p>
-
-<strong>Important:</strong> No system is 100% secure. We cannot guarantee absolute security.
-
-<hr>
-
-<h2>5. Data Storage & Retention</h2>
-
-<ul>
-<li><strong>Location:</strong> Data is stored on Google Cloud servers (Firebase) in the United States</li>
-<li><strong>Retention:</strong> Data is retained while your account is active</li>
-<li><strong>Account Deletion:</strong> You may delete your account at any time. <strong>Workout and personal data will be deleted within 30 days</strong> of account deletion.</li>
-</ul>
-
-<hr>
-
-<h2>6. Your Rights & Choices</h2>
-
-<h3>6.1 Access & Update</h3>
-<ul>
-<li>View and update your profile information in the App</li>
-<li>Request a copy of your data by contacting us</li>
-</ul>
-
-<h3>6.2 Delete</h3>
-<ul>
-<li>Delete individual entries (workouts, meals, messages) within the App</li>
-<li>Request full account deletion by contacting us at lockedinwebdesigns@gmail.com</li>
-</ul>
-
-<strong>Important:</strong> Deleting your App account does not delete your gym membership or data your gym may have collected separately. Contact your gym directly for membership-related data requests.
-
-<h3>6.3 Control Sharing</h3>
-<ul>
-<li>Choose what content to post</li>
-<li>Manage photo and camera permissions in your device settings</li>
-<li>Disable notifications in your device settings</li>
-</ul>
-
-<hr>
-
-<h2>7. Children's Privacy</h2>
-
-<p>The App is intended for users 18 years of age and older. We do not knowingly collect information from children under 18.</p>
-
-<p>If you believe a minor has provided information, contact us immediately at lockedinwebdesigns@gmail.com.</p>
-
-<hr>
-
-<h2>8. Photo & Camera Access</h2>
-
-<p>We request photo library and camera access for:
-<ul>
-<li>Profile pictures</li>
-<li>Workout documentation photos</li>
-<li>Community content images</li>
-</ul></p>
-
-<p>You may deny or revoke this permission in your device settings. The App will function without photo access, but you will not be able to upload images.</p>
-
-<hr>
-
-<h2>9. Cookies & Tracking</h2>
-
-<p>The App may use standard mobile analytics tools to improve performance and user experience.</p>
-
-<strong>We do not use tracking for advertising purposes.</strong> We do not sell your data to advertisers or use third-party advertising networks.
-
-<hr>
-
-<h2>10. California Privacy Rights (CCPA)</h2>
-
-<p>California residents have the right to:
-<ul>
-<li>Know what personal information is collected</li>
-<li>Request deletion of personal information</li>
-<li>Opt-out of data sales (we do not sell data)</li>
-<li>Non-discrimination for exercising privacy rights</li>
-</ul></p>
-
-<p>To exercise these rights, contact us at lockedinwebdesigns@gmail.com.</p>
-
-<hr>
-
-<h2>11. International Users & GDPR</h2>
-
-<p>If you are located outside the United States, your data will be transferred to and stored on servers in the United States.</p>
-
-<strong>For users in the European Union/EEA:</strong>
-
-<p>We process data based on:
-<ul>
-<li><strong>Consent:</strong> You provide consent when creating an account</li>
-<li><strong>Contract Performance:</strong> Processing necessary to provide app services</li>
-<li><strong>Legitimate Interests:</strong> Improving services, maintaining security, preventing fraud</li>
-</ul></p>
-
-<p>You have the right to:
-<ul>
-<li>Access your data</li>
-<li>Correct inaccurate data</li>
-<li>Request deletion</li>
-<li>Withdraw consent</li>
-<li>Data portability</li>
-</ul></p>
-
-<p>Contact us at lockedinwebdesigns@gmail.com to exercise these rights.</p>
-
-<hr>
-
-<h2>12. Changes to This Policy</h2>
-
-<p>We may update this Privacy Policy from time to time. Changes will be communicated through:
-<ul>
-<li>Updated "Last Updated" date in the App</li>
-<li>In-app notification</li>
-<li>Email notification for material changes</li>
-</ul></p>
-
-<p>Continued use after changes constitutes acceptance of the updated policy.</p>
-
-<hr>
-
-<h2>13. Contact Information</h2>
-
-<p>For privacy questions, data requests, or account deletion:</p>
-
-<strong>Locked In Technologies LLC</strong>  
-Email: lockedinwebdesigns@gmail.com
-
-<strong>Online Resources:</strong>  
-Privacy Policy: <a href="https://lockedintechnologies.github.io/level5gym-privacy/privacy-policy.html">https://lockedintechnologies.github.io/level5gym-privacy/privacy-policy.html</a>  
-Terms of Service: <a href="https://lockedintechnologies.github.io/level5gym-privacy/terms-of-service.html">https://lockedintechnologies.github.io/level5gym-privacy/terms-of-service.html</a>
-
-<strong>For gym membership matters, contact your gym directly.</strong>
-
-<p>We aim to respond to inquiries within 48 hours.</p>
-
-<hr>
-
-<h2>Summary for App Store Privacy Labels</h2>
-
-<strong>Data Linked to You:</strong>
-<ul>
-<li>Contact Info (name, email, phone)</li>
-<li>Health & Fitness (workouts, weight, body measurements)</li>
-<li>User Content (photos, messages, posts)</li>
-<li>Identifiers (user ID)</li>
-</ul>
-
-<strong>Data Used for Tracking:</strong> None
-
-<strong>Data Not Collected:</strong>
-<ul>
-<li>Financial or payment information</li>
-<li>Precise location/GPS data</li>
-<li>Browsing or search history</li>
-</ul>
-
-<hr>
-
-<h2>Acknowledgment</h2>
-
-<p>By using the Level5 Gym App, you acknowledge that you have read and understood this Privacy Policy.</p>
-
-<strong>This App is provided by Locked In Technologies LLC. For gym-related privacy matters, contact your gym directly.</strong>
+        <h1>Privacy Policy for Level5 Gym</h1>
+        <p class="last-updated"><strong>Last Updated:</strong> February 15, 2026</p>
+        
+        <p>Level5 Gym ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.</p>
+
+        <h2>1. Information We Collect</h2>
+        
+        <h3>Personal Information</h3>
+        <ul>
+            <li><strong>Account Information:</strong> Name, email address, phone number, username</li>
+            <li><strong>Profile Information:</strong> Profile photo, bio, gym membership status</li>
+            <li><strong>Authentication Data:</strong> Login credentials managed securely through Firebase Authentication</li>
+        </ul>
+
+        <h3>Health & Fitness Data</h3>
+        <ul>
+            <li><strong>Workout Data:</strong> Workout completions, exercise logs, workout templates, scheduled workouts</li>
+            <li><strong>Body Measurements:</strong> Weight, weigh-ins, body composition data</li>
+            <li><strong>Personal Records:</strong> Strength and fitness achievements (PRs)</li>
+            <li><strong>Fitness Goals:</strong> Personal fitness objectives and progress tracking</li>
+            <li><strong>Nutrition Data:</strong> Meal logs, macronutrient tracking, nutrition goals</li>
+        </ul>
+
+        <h3>User-Generated Content</h3>
+        <ul>
+            <li><strong>Photos & Media:</strong> Profile pictures, workout photos, motivational content images</li>
+            <li><strong>Messages:</strong> Chat messages between members and trainers</li>
+            <li><strong>Posts & Announcements:</strong> User-created announcements and motivational content</li>
+            <li><strong>Reactions:</strong> Likes and reactions to content within the gym community</li>
+        </ul>
+
+        <h3>Usage Information</h3>
+        <ul>
+            <li><strong>App Activity:</strong> Features used, workout completion times, login history</li>
+            <li><strong>Device Information:</strong> Device type, operating system, app version</li>
+        </ul>
+
+        <h2>2. How We Use Your Information</h2>
+        <p>We use your information to:</p>
+        <ul>
+            <li><strong>Provide Core Services:</strong> Create and manage your gym membership account</li>
+            <li><strong>Track Fitness Progress:</strong> Store and display your workouts, weigh-ins, PRs, and goals</li>
+            <li><strong>Facilitate Communication:</strong> Enable messaging between members, trainers, and gym owners</li>
+            <li><strong>Community Features:</strong> Share workouts, announcements, and motivational content within your gym</li>
+            <li><strong>Personalization:</strong> Customize your app experience based on your fitness preferences</li>
+            <li><strong>Support Services:</strong> Respond to support tickets and technical issues</li>
+            <li><strong>App Improvement:</strong> Analyze usage patterns to improve features and performance</li>
+            <li><strong>Security:</strong> Protect against unauthorized access and maintain data integrity</li>
+        </ul>
+
+        <h2>3. Data Sharing & Visibility</h2>
+        
+        <h3>Within Your Gym</h3>
+        <p>Level5 Gym is a <strong>single-gym community app</strong>. Your data is shared with other members of Level5 Gym as follows:</p>
+        
+        <p><strong>All Members Can See:</strong></p>
+        <ul>
+            <li>Your profile (name, username, profile photo)</li>
+            <li>Your workout completions (for leaderboards and community motivation)</li>
+            <li>Approved announcements and motivational content you post</li>
+            <li>Your reactions to community content</li>
+        </ul>
+
+        <p><strong>Trainers & Gym Owners Can See:</strong></p>
+        <ul>
+            <li>All of the above, plus:</li>
+            <li>Your weigh-ins and body measurements (to provide coaching support)</li>
+            <li>Your fitness goals and personal records</li>
+            <li>Your meal logs and nutrition data (when you seek nutrition guidance)</li>
+            <li>Support tickets you submit</li>
+        </ul>
+
+        <p><strong>You Can See:</strong></p>
+        <ul>
+            <li>Your own complete data</li>
+            <li>Other members' public profiles and workout completions</li>
+            <li>Community content, announcements, and scheduled workouts</li>
+        </ul>
+
+        <h3>Third-Party Services</h3>
+        <p>We use the following third-party services:</p>
+        <ul>
+            <li><strong>Google Firebase/Firestore:</strong> Cloud database, authentication, and secure data storage (runs on Google Cloud Platform infrastructure)</li>
+        </ul>
+
+        <div class="highlight">
+            <p><strong>We DO NOT:</strong></p>
+            <ul>
+                <li>Collect payment or financial information directly from users (see note below)</li>
+                <li>Sell your personal information to third parties</li>
+                <li>Share your data with advertisers</li>
+                <li>Use your data for marketing purposes outside Level5 Gym</li>
+            </ul>
+            <p><strong>Note on Subscription Tracking:</strong> The App allows gym owners to track member subscription status, payment due dates, and membership tiers for administrative purposes. All actual payment transactions occur outside the App. We do not process, store, or have access to credit card information, bank accounts, or other financial payment methods.</p>
+        </div>
+
+        <h3>Platform Support</h3>
+        <p>Locked In Technologies (platform creator) has limited access to data for:</p>
+        <ul>
+            <li>Emergency technical support and troubleshooting only</li>
+            <li>Resolving critical system issues</li>
+            <li>Platform support staff are bound by strict confidentiality agreements</li>
+        </ul>
+
+        <h2>4. Data Security</h2>
+        <p>We implement industry-standard security measures:</p>
+        <ul>
+            <li><strong>Automatic Encryption:</strong> All data is automatically encrypted during transmission (SSL/TLS) and at rest on Firebase servers - no action required from you</li>
+            <li><strong>Firebase Security:</strong> Cloud Firestore security rules enforce role-based access control</li>
+            <li><strong>Secure Authentication:</strong> Firebase Authentication manages your credentials with industry-standard encryption</li>
+            <li><strong>Access Controls:</strong> Strict role-based permissions (Member, Trainer, Owner)</li>
+            <li><strong>Monitoring:</strong> Automated security monitoring and logging provided by Google Firebase</li>
+        </ul>
+        <p><strong>However:</strong> No method of transmission over the internet is 100% secure. We cannot guarantee absolute security.</p>
+
+        <h2>5. Data Storage & Retention</h2>
+        <ul>
+            <li><strong>Location:</strong> Your data is stored on secure Google Cloud servers in the United States (Firebase/Firestore)</li>
+            <li><strong>Retention:</strong> We retain your data as long as your account is active</li>
+            <li><strong>Backups:</strong> Firebase automatically performs backups as part of their managed service for data integrity and recovery</li>
+            <li><strong>Account Deletion:</strong> You can request account deletion at any time by contacting your gym owner</li>
+        </ul>
+
+        <h2>6. Your Rights & Choices</h2>
+        
+        <h3>Access Your Data</h3>
+        <ul>
+            <li>View all your personal information within the app</li>
+            <li>Request a copy of your data by contacting support</li>
+        </ul>
+
+        <h3>Update Your Data</h3>
+        <ul>
+            <li>Edit your profile, goals, and preferences in-app at any time</li>
+            <li>Correct inaccurate information</li>
+        </ul>
+
+        <h3>Delete Your Data</h3>
+        <ul>
+            <li>Delete specific entries (workouts, weigh-ins, meal logs, messages)</li>
+            <li>Delete your account directly in the app under Profile → Delete Account</li>
+            <li><strong>Note:</strong> Account deletion is permanent and cannot be undone</li>
+            <li><strong>Staff Permissions:</strong> Trainers and gym owners have permission to delete exercises from the exercise library to maintain content quality and accuracy</li>
+        </ul>
+
+        <div class="highlight">
+            <strong>What Happens When You Delete Your Account:</strong>
+            <ul>
+                <li>Your profile, workout history, messages, and all personal data are permanently deleted from our system</li>
+                <li>Gym administrators are automatically notified of the account deletion via email for administrative purposes</li>
+                <li>A minimal deletion record (containing only username, email, role, and deletion date) is retained for 90 days for audit and compliance purposes, then automatically deleted</li>
+                <li>You will be immediately logged out and cannot recover your account</li>
+                <li>Any active subscriptions or payment obligations remain your responsibility - contact your gym owner directly</li>
+            </ul>
+        </div>
+
+        <h3>Control Sharing</h3>
+        <ul>
+            <li>Choose what photos to upload</li>
+            <li>Decide whether to post announcements (subject to trainer approval)</li>
+            <li>Control your participation in community features</li>
+        </ul>
+
+        <h3>Opt-Out Options</h3>
+        <ul>
+            <li>Disable notifications in device settings</li>
+            <li>Limit photo access in device privacy settings</li>
+        </ul>
+
+        <h2>7. Children's Privacy</h2>
+        <p>Level5 Gym is <strong>not intended for users under 13 years of age</strong>. We do not knowingly collect information from children under 13. If you believe a child has provided us with personal information, please contact us immediately.</p>
+        <p>Users aged 13-17 require parental/guardian consent to use the app.</p>
+
+        <h2>8. Photo & Camera Access</h2>
+        <p>We request photo library and camera access for:</p>
+        <ul>
+            <li><strong>Profile Pictures:</strong> Upload or take a photo for your profile</li>
+            <li><strong>Workout Photos:</strong> Document your fitness journey (optional)</li>
+            <li><strong>Motivational Content:</strong> Share inspiring images with your gym community</li>
+        </ul>
+        <p><strong>You can deny or revoke this permission</strong> in your device settings. The app will function normally, but you won't be able to upload images.</p>
+
+        <h2>9. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy periodically. Changes will be posted:</p>
+        <ul>
+            <li>In the app with the updated "Last Updated" date</li>
+            <li>Via email for material changes (if we have your email)</li>
+            <li>On our website (if applicable)</li>
+        </ul>
+        <p>Continued use after changes constitutes acceptance of the updated policy.</p>
+
+        <h2>10. California Privacy Rights (CCPA)</h2>
+        <p>If you are a California resident, you have additional rights:</p>
+        <ul>
+            <li>Right to know what personal information is collected</li>
+            <li>Right to delete personal information</li>
+            <li>Right to opt-out of sale (we don't sell your data)</li>
+            <li>Right to non-discrimination for exercising privacy rights</li>
+        </ul>
+
+        <h2>11. Contact Us</h2>
+        <div class="contact-box">
+            <p><strong>Level5 Gym</strong><br>
+            Owner: Corey Parks<br>
+            Phone: 404-394-4225<br>
+            Address: 5430 N Henry Blvd, Stockbridge, GA 30281</p>
+            
+            <p><strong>Platform Support (LOKT - Locked In Technologies)</strong><br>
+            Email: lockedinwebdesigns@gmail.com</p>
+            
+            <p><strong>Response Time:</strong> We aim to respond within 48 hours.</p>
+        </div>
+
+        <h2>12. Legal Basis for Processing (GDPR)</h2>
+        <p>If you are in the European Union/European Economic Area, we process your data based on:</p>
+        <ul>
+            <li><strong>Consent:</strong> You provide consent when creating an account and accepting this privacy policy</li>
+            <li><strong>Contract Performance:</strong> Processing necessary to provide gym membership services</li>
+            <li><strong>Legitimate Interests:</strong> Improving our services, maintaining security, and preventing fraud</li>
+            <li><strong>Legal Obligations:</strong> Compliance with applicable laws</li>
+        </ul>
+        <p><strong>What this means:</strong> We have a legal reason to collect and use your information. You can withdraw consent at any time by deleting your account.</p>
+
+        <h2>13. Data Storage Location</h2>
+        <p>Your data is stored on Google Cloud/Firebase servers located in the United States. If you are accessing the app from outside the United States, your information will be transferred to and stored on US servers. Google Firebase implements appropriate security safeguards for data storage and transmission.</p>
+
+        <div class="footer">
+            <p>By using Level5 Gym, you acknowledge that you have read and understood this Privacy Policy.</p>
+            <p>&copy; 2026 Level5 Gym. All rights reserved.</p>
+        </div>
     </div>
 </body>
 </html>
